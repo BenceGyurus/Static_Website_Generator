@@ -1,0 +1,187 @@
+body{
+  background-image: linear-gradient(to right,grey, aqua);
+}
+
+*{
+  font-family: "ubuntu", sans-serif;
+}
+#media{
+  z-index:99;
+  position:absolute;
+  display: none;
+  left: 25%;
+  top: 30%;
+  margin: auto;
+  border: 3px solid black;
+  border-radius: 40px;
+  padding: 40px;
+  font-family: "ubuntu", sans-serif;
+  font-weight: bold;
+  background: aqua;
+}
+
+#media input{
+  width: 50%;
+  margin: 10px;
+  padding: 3px;
+
+}
+
+#media #advice {
+  font-size: 13px;
+  color: green;
+}
+
+#error_Message{
+  color: red;
+  font-size: 13px;
+}
+
+#return_Button{
+  border: 3px solid black;
+  border-radius: 20px;
+  margin: auto;
+}
+
+#return_Button:hover{
+  color: white;
+  background: black;
+  transition: 0.2s;
+}
+
+#media select{
+  border-radius: 10px;
+  color: black;
+  font-weight: bold;
+
+}
+
+#media option {
+  border-radius: 10px;
+  color: black;
+  font-weight: bold;
+}
+#media option:active{
+  width: 300px;
+  transition: 0.3s;
+}
+
+#media input{
+  border-radius: 20px;
+  border:3px solid black;
+}
+.code{
+  width: 40%;
+  border: 3px solid black;
+  border-radius: 30px;
+  background: black;
+  font-family: "Monaco", "Lucida Console", monospace;
+  color: white;
+  padding: 30px;
+  margin: 10px;
+  border: 3px solid white;
+  border-radius: 2%;
+  margin-top: 2px;
+  display: block;
+}
+
+#work_Place{
+  border-radius: 30px;
+  padding: 30px;
+  margin: 20px;
+  display: none;
+
+}
+
+#work_Place{
+  border: none;
+  border-radius: 0px;
+  background: none;
+}
+
+#work_Place p {
+  margin: 5px;
+}
+
+#work_Place input {
+  margin: 5px;
+}
+
+#work_Place textarea {
+  margin: 5px;
+}
+
+#work_Place h1 {
+  margin: 5px;
+}
+
+#work_Place  button{
+  margin: 5px;
+}
+
+#color{
+  border: 1px solid black;
+  margin: 2px;
+  float: left;
+  }
+
+#css_Panel{
+  display: none;
+  padding: 30px;
+  top: 20%;
+  left: 20%;
+  border: 3px solid black;
+  border-radius: 30px;
+  background: aqua;
+  z-index: 99;
+  font-style: "ubuntu", sans-serif;
+}
+
+#close_Btn{
+  width: 30px;
+  height: 30px;
+  background: aqua;
+  color: red;
+  border-radius: 0px 20px 0px 0px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  box-shadow: 0px 0px 0px 0px;
+  cursor:  pointer;
+}
+input{
+	border-radius: 30px;
+	border:2px solid black;
+	padding: 3px;
+	margin: 3px;
+  background: #2cf2c1;
+  box-shadow: 1px 1px 1px 1px #3a4f4c;
+	}
+
+  .code_Title{
+    font-size: 30px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    color: white;
+  }
+#char_Code{
+  width: 20px;
+  height: 30px;
+  margin: 3px;
+  padding: 1px;
+  border: 1px solid aqua;
+  box-shadow: 2px 3px 1px 2px #009989;
+  transition: 0.2s;
+}
+
+#char_Code:hover{
+  transition: 0.2s;
+  width: 70px;
+}
+
+#char_Code ul {
+  border: 1px solid aqua;
+}
