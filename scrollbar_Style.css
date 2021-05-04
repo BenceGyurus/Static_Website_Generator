@@ -1,0 +1,19 @@
+/*from W3shool*/
+::-webkit-scrollbar {
+  width: 11px;
+}
+::-webkit-scrollbar-track {
+  background: aqua;
+}
+::-webkit-scrollbar-thumb {
+  background: #4d8a8a;
+  border-radius: 15px;
+}
+@keyframes scrollBar_Animation{
+	from{background: #4a7575;}
+	to{background: #008cbf;}
+}
+::-webkit-scrollbar-thumb:hover {
+	animation: scrollBar_Animation 0.5s;
+  	background: #4d8a8a;
+}
