@@ -309,7 +309,7 @@ function set_Css(){
 //Saját háttérszín hozzáadásához hívja meg a függvényt
 
 function set_Custom_Background(){
-  set_Background_Color(document.getElementById(background_Color_Code).value);
+  set_Background_Color(document.getElementById("background_Color_Code").value);
 }
 
 //Saját szín hozzáadásához hívja meg a függvényt
@@ -353,6 +353,10 @@ function set_Border_Color(color){
     document.getElementById(window.last_Id).style.border = "hidden";
 }
 set_Css();
+}
+
+function set_Custom_Border(){
+  set_Border_Color(document.getElementById("border_Code").value);
 }
 
 //Beállítja a keretet

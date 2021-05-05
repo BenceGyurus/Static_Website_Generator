@@ -46,7 +46,7 @@ A létrehozandó elem típutsa
     <div id = "color" style = "background: yellow; width: 10px; height: 10px;" onclick = "set_Color('yellow')"></div>
     <div id = "color" style = "background: orange; width: 10px; height: 10px;" onclick = "set_Color('orange')"></div>
     <br />
-    Egyéni színkód megadása: <input id = "color_Code" type = "text"><input type = "button" onclick = "set_Custom_Color()" value = "Beállítás">
+    Egyéni színkód megadása: <input id = "color_Code" type = "color"><input type = "button" onclick = "set_Custom_Color()" value = "Beállítás">
     <br />
     Háttérszín beállítás<br />
     <div id = "color" style = "background: black; width: 10px; height: 10px;" onclick = "set_Background_Color('black')"></div>
@@ -58,7 +58,7 @@ A létrehozandó elem típutsa
     <div id = "color" style = "background: orange; width: 10px; height: 10px;" onclick = "set_Background_Color('orange')"></div>
     <div id = "color" style = "background: none; width: 10px; height: 10px;" onclick = "set_Background_Color('none')"></div>
     <br />
-    Egyéni színkód megadása: <input id = "background_Color_Code" type = "text"><input type = "button" onclick = "set_Custom_Background()" value = "Beállítás">
+    Egyéni színkód megadása: <input id = "background_Color_Code" type = "color"><input type = "button" onclick = "set_Custom_Background()" value = "Beállítás">
     <br />
     Keret színe<br />
     <div id = "color" style = "background: black; width: 10px; height: 10px;" onclick = "set_Border_Color('black')"></div>
@@ -69,11 +69,12 @@ A létrehozandó elem típutsa
     <div id = "color" style = "background: yellow; width: 10px; height: 10px;" onclick = "set_Border_Color('yellow')"></div>
     <div id = "color" style = "background: orange; width: 10px; height: 10px;" onclick = "set_Border_Color('orange')"></div>
     <div id = "color" style = "background: none; width: 10px; height: 10px;" onclick = "set_Border_Color('none')"></div><br />
+    Egyéni színkód megadása: <input id = "border_Code" type = "color"><input type = "button" onclick = "set_Custom_Border()" value = "Beállítás"><br />
     Keret lekerekítése:<br />
     <input type = "number" id = "border_Radius" value = 0>
     <input type = "button" onclick = "set_Border_Radius()" value="Keret beállítása">
-    <br />Belső térköz<input type = "text" id = "set_Padding" value = 3>px
-    <br />Külső térköz<input type = "text" id = "set_margin" value = 3>px
+    <br />Belső térköz<input type = "number" id = "set_Padding" value = 3>px
+    <br />Külső térköz<input type = "number" id = "set_margin" value = 3>px
     <br /><input type = "button" onclick = "set_Margin_And_Padding()" value = "Belső és külső térköz beállítása">
   </div>
   <div id = "select">
